@@ -9,26 +9,19 @@ applications from active experiments and planned work.
 
 ## Project map
 
-- **xSAR**
-  - [Sensors](Sensors.md)
-    - [Thermal and precision ADC](Sensors.md#thermal-and-precision-adc)
-      - [xSAR Sensor Harvester](https://github.com/xSAR-research/xsar-sensor-harvester)
-      - [xSAR Sensor Logger Display](https://github.com/xSAR-research/xsar-sensor-logger-display)
-      - [ADS1256 Precision ADC Bench](Sensors.md#ads1256-precision-adc-bench)
-    - [Ranging](Sensors.md#ranging)
-      - [LiDAR](Sensors.md#lidar)
-      - [Doppler ranging](Sensors.md#doppler-ranging)
-    - [Power and battery measurement](Sensors.md#power-and-battery-measurement)
-      - [Current and voltage sensing](Sensors.md#current-and-voltage-sensing)
-      - [Coulomb-counting battery state](Sensors.md#coulomb-counting-battery-state)
-    - [Embedded sensor nodes](Sensors.md#embedded-sensor-nodes)
-      - [RP2350 CAN FD Node Firmware](https://github.com/xSAR-research/xsar-node-firmware-can-fd)
-  - [Linux tools](Linux-tools.md)
-    - [Warm Drive Cache](https://github.com/xSAR-research/warm-drive-cache)
-    - [Message Queue Framework](Linux-tools.md#message-queue-framework)
+### [Sensors](Sensors.md)
 
-The project map is the front door. Major areas have their own Markdown index so
-the profile remains concise while project descriptions and navigation can grow.
+Sensor acquisition, precision analogue measurement, ranging, battery and power
+monitoring, and embedded sensor-node projects.
+
+### [Linux tools](Linux-tools.md)
+
+Practical Linux utilities and reusable frameworks for storage, services,
+inter-process communication and systems integration.
+
+The profile is the front door. Each major area has its own Markdown index so the
+project descriptions and repository navigation can grow without duplicating the
+same information here.
 
 ---
 
