@@ -9,70 +9,26 @@ applications from active experiments and planned work.
 
 ## Project map
 
-```text
-xSAR
-├── Sensors
-│   ├── Thermal and precision ADC
-│   │   ├── Sensor harvester
-│   │   ├── Sensor logger display
-│   │   └── ADS1256 precision ADC bench
-│   │
-│   ├── Ranging
-│   │   ├── LiDAR
-│   │   └── Doppler ranging
-│   │
-│   ├── Power and battery measurement
-│   │   ├── Current and voltage sensing
-│   │   └── Coulomb-counting battery state
-│   │
-│   └── Embedded sensor nodes
-│       └── RP2350 CAN FD firmware
-│
-└── Linux tooling
-    ├── Warm Drive Cache
-    └── Message Queue Framework
-```
+- **xSAR**
+  - [Sensors](Sensors.md)
+    - [Thermal and precision ADC](Sensors.md#thermal-and-precision-adc)
+      - [xSAR Sensor Harvester](https://github.com/xSAR-research/xsar-sensor-harvester)
+      - [xSAR Sensor Logger Display](https://github.com/xSAR-research/xsar-sensor-logger-display)
+      - [ADS1256 Precision ADC Bench](Sensors.md#ads1256-precision-adc-bench)
+    - [Ranging](Sensors.md#ranging)
+      - [LiDAR](Sensors.md#lidar)
+      - [Doppler ranging](Sensors.md#doppler-ranging)
+    - [Power and battery measurement](Sensors.md#power-and-battery-measurement)
+      - [Current and voltage sensing](Sensors.md#current-and-voltage-sensing)
+      - [Coulomb-counting battery state](Sensors.md#coulomb-counting-battery-state)
+    - [Embedded sensor nodes](Sensors.md#embedded-sensor-nodes)
+      - [RP2350 CAN FD Node Firmware](https://github.com/xSAR-research/xsar-node-firmware-can-fd)
+  - [Linux tools](Linux-tools.md)
+    - [Warm Drive Cache](https://github.com/xSAR-research/warm-drive-cache)
+    - [Message Queue Framework](Linux-tools.md#message-queue-framework)
 
----
-
-## Sensors
-
-### Thermal and precision ADC
-
-| Project | Status | Purpose |
-|---|---|---|
-| [xSAR Sensor Harvester](https://github.com/xSAR-research/xsar-sensor-harvester) | Experimental | Raspberry Pi sensor acquisition using ADS1115, NTC thermistors and a BMP180 reference sensor. |
-| [xSAR Sensor Logger Display](https://github.com/xSAR-research/xsar-sensor-logger-display) | Experimental | Rust desktop viewer for comparing timestamped sensor captures using elapsed-time, oscilloscope-style plots. |
-| ADS1256 Precision ADC Bench | Planned | SPI-connected 24-bit, eight-channel ADC evaluation, noise characterisation and multiplexed-channel testing. |
-
-### Ranging
-
-| Project | Status | Purpose |
-|---|---|---|
-| LiDAR sensing | Planned | Evaluation and integration of optical ranging sensors. |
-| Doppler ranging | Planned | High-resolution Doppler and radar-based range and velocity measurement. |
-
-### Power and battery measurement
-
-| Project | Status | Purpose |
-|---|---|---|
-| Current and voltage sensing | Planned | Precision acquisition of electrical system voltage and current. |
-| Coulomb-counting battery state | Planned | Charge integration and battery state-of-charge estimation. |
-
-### Embedded sensor nodes
-
-| Project | Status | Purpose |
-|---|---|---|
-| [RP2350 CAN FD Node Firmware](https://github.com/xSAR-research/xsar-node-firmware-can-fd) | Early development | Rust firmware for distributed RP2350-based CAN FD sensor and control nodes. |
-
----
-
-## Linux tools
-
-| Project | Status | Purpose |
-|---|---|---|
-| [Warm Drive Cache](https://github.com/xSAR-research/warm-drive-cache) | Active | Linux storage tooling for controlled cache warming and data placement. |
-| Message Queue Framework | Planned | A reusable Linux message-queue framework for communication between services, acquisition processes and analysis tools. |
+The project map is the front door. Major areas have their own Markdown index so
+the profile remains concise while project descriptions and navigation can grow.
 
 ---
 
