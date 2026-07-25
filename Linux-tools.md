@@ -1,17 +1,25 @@
-# xSAR Linux Tools
+# xSAR Linux and Cross-Platform Tools
 
-[← Back to the xSAR project map](README.md)
+[← Back to the xSAR repository map](README.md)
 
-Linux utilities and supporting frameworks developed for practical systems work,
-service integration and data handling.
+Practical utilities and supporting frameworks for Linux systems work, portable
+command-line processing, service integration and data handling.
 
-## Warm Drive Cache
+## Dedup Wordlist
 
-**Status:** Active
+**Status:** Active  
+**Implementation:** Rust  
+**Platforms:** Linux, macOS and Windows
 
-Linux storage tooling for controlled cache warming and data placement.
+High-performance wordlist cleaner and de-duplicator for very large text dumps.
+It streams and cleans the source, removes invalid entries, performs parallel slab
+sorting, and writes a de-duplicated result through a k-way merge.
 
-- [Open the Warm Drive Cache repository](https://github.com/xSAR-research/warm-drive-cache)
+The utility includes pre-flight storage checks, configurable worker limits,
+memory estimates, swap-thrashing risk gates, progress reporting and a final
+processing summary.
+
+- [Open the Dedup Wordlist repository](https://github.com/xSAR-research/dedup-wordlist)
 
 ## Message Queue Framework
 
@@ -28,6 +36,14 @@ The design direction is expected to cover:
 - failure recovery and observable queue state;
 - Rust interfaces suitable for Linux applications and services.
 
+## Warm Drive Cache
+
+**Status:** Active
+
+Linux storage tooling for controlled cache warming and data placement.
+
+- [Open the Warm Drive Cache repository](https://github.com/xSAR-research/warm-drive-cache)
+
 ---
 
-[← Back to the xSAR project map](README.md)
+[← Back to the xSAR repository map](README.md)
