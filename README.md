@@ -1,12 +1,17 @@
 # xSAR Research
 
-Practical engineering repositories for Rust, Linux, Raspberry Pi, RP2350,
-sensing, signal processing and communications.
+Practical engineering repositories for Rust, Linux, cross-platform utilities,
+Raspberry Pi, RP2350, sensing, positioning, signal processing and communications.
 
 The emphasis is on useful functionality, measurable behaviour and enough
 technical detail for another person to build, run, evaluate or extend the work.
 
 ## Repository map
+
+### [Cross-platform tools](Cross-platform-tools.md)
+
+**Active** — Portable Rust utilities intended to provide consistent behaviour
+across Linux, macOS and Windows.
 
 ### [Digital signal processing](Digital-signal-processing.md)
 
@@ -20,18 +25,23 @@ communications nodes.
 
 ### [Inter-device communications](Inter-device-communications.md)
 
-**Early development** — Reliable links, message formats and fault handling
-between sensors, embedded controllers and Linux systems.
+**Early development** — Reliable links, shared message formats and fault handling
+between sensors, embedded controllers, flight controllers and Linux systems.
 
-### [Linux and cross-platform tools](Linux-tools.md)
+### [Linux tools](Linux-tools.md)
 
-**Early development** — Practical Rust utilities and reusable frameworks for
-Linux systems, portable command-line processing, services and data handling.
+**Early development** — Linux-specific utilities and reusable frameworks for
+storage, services, inter-process communication and systems integration.
 
 ### [Mesh communications and arbitration](Mesh-communications-and-arbitration.md)
 
 **Planned** — Distributed routing, contention control, traffic priority and
 recovery for networks of sensor and control nodes.
+
+### [Positioning and navigation](Positioning-and-navigation.md)
+
+**Early development** — GNSS receiver evaluation, position and timing acquisition,
+and integration with mobile nodes and flight-control systems.
 
 ### [RF — LORAN, Wi-Fi and Bluetooth](RF.md)
 
@@ -76,9 +86,11 @@ their functionality has been replaced or superseded by a newer implementation.
 
 A broad and diverse coverage of the following:
 
-- Rust crates, Linux applications and embedded firmware;
+- Rust crates, Linux applications, cross-platform utilities and embedded firmware;
 - Arch Linux on x86_64 and Raspberry Pi 5 on aarch64;
 - RP2350 firmware, hardware interfaces and CAN FD nodes;
+- CAN FD node-to-flight-controller communications and analysis;
+- GNSS positioning, velocity, timing and navigation integration;
 - hardware and software digital signal processing;
 - sensor acquisition, calibration, comparison and visualisation;
 - inter-device, mesh and RF communications;
