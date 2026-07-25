@@ -23,10 +23,10 @@ communications nodes.
 **Early development** — Reliable links, message formats and fault handling
 between sensors, embedded controllers and Linux systems.
 
-### [Linux tools](Linux-tools.md)
+### [Linux and cross-platform tools](Linux-tools.md)
 
-**Early development** — Practical Linux utilities and reusable frameworks for
-storage, services, inter-process communication and systems integration.
+**Early development** — Practical Rust utilities and reusable frameworks for
+Linux systems, portable command-line processing, services and data handling.
 
 ### [Mesh communications and arbitration](Mesh-communications-and-arbitration.md)
 
