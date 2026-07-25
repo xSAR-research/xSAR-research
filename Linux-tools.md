@@ -1,25 +1,9 @@
-# xSAR Linux and Cross-Platform Tools
+# xSAR Linux Tools
 
 [← Back to the xSAR repository map](README.md)
 
-Practical utilities and supporting frameworks for Linux systems work, portable
-command-line processing, service integration and data handling.
-
-## Dedup Wordlist
-
-**Status:** Active  
-**Implementation:** Rust  
-**Platforms:** Linux, macOS and Windows
-
-High-performance wordlist cleaner and de-duplicator for very large text dumps.
-It streams and cleans the source, removes invalid entries, performs parallel slab
-sorting, and writes a de-duplicated result through a k-way merge.
-
-The utility includes pre-flight storage checks, configurable worker limits,
-memory estimates, swap-thrashing risk gates, progress reporting and a final
-processing summary.
-
-- [Open the Dedup Wordlist repository](https://github.com/xSAR-research/dedup-wordlist)
+Linux-specific utilities and supporting frameworks for systems work, service
+integration, storage and inter-process communication.
 
 ## Message Queue Framework
 
