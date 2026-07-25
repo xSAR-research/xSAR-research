@@ -11,9 +11,17 @@ Coverage includes:
 - RP2350 firmware and board-level hardware interfaces;
 - deterministic acquisition and control loops;
 - CAN FD sensor and control nodes;
-- configuration, diagnostics and fault reporting;
+- node identity, configuration and health reporting;
+- flight-controller backplane participation;
 - protocol separation for reuse across transports;
 - build, flash, verification and recovery workflows.
+
+## CAN FD node firmware
+
+The RP2350 node firmware will provide the embedded endpoint for the CAN FD
+node-to-flight-controller backplane. Each node should expose its identity,
+capabilities, sensor or actuator data, configuration state and health without
+leaking board-specific details into the shared protocol.
 
 Current implementation:
 
