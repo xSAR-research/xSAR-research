@@ -1,5 +1,7 @@
 # xSAR Research
 
+**xSAR** means **Search Assess Respond**.
+
 Practical engineering repositories for Rust, Linux, cross-platform utilities,
 Raspberry Pi, RP2350, sensing, positioning, signal processing and communications.
 
