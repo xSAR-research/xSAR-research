@@ -30,21 +30,19 @@ Linux storage tooling for controlled cache warming and data placement.
 
 ## QMP QEMU Socket
 
-**Status:** Experimental  
-**Implementation:** Rust (egui)  
-**Platform:** Arch Linux on beast (QEMU host); Windows 11 guest fixtures
+**Status:** Experimental
 
-Rust desktop agent: calibrated vision detectors and effect proofs, allow-listed
-QMP↔QEMU control over a Unix socket, and an egui UI. Solitaire guest modes
-(TriPeaks, Pyramid, Klondike) are disposable fixtures for the capture and
-control loop — not the product. Beast gameplay acceptance is required before
-promoting the current candidate.
+Rust desktop agent for calibrated vision, allow-listed QMP↔QEMU control, and an
+egui UI. It connects to an existing QEMU QMP Unix socket and does not launch
+QEMU or create that socket. Solitaire guest modes are disposable fixtures, not
+the product. The target is Dijkstra / A* shortest-path solving rather than the
+guest Solver, as practice for drone route planning. Beast acceptance is required
+before promotion.
 
 Related prior work: private [solitaire-solver](https://github.com/xSAR-research/solitaire-solver)
 (TriPeaks-era predecessor; not archived).
 
 - [Open the QMP QEMU Socket repository](https://github.com/xSAR-research/qmp-qemu-socket)
-
 
 ---
 

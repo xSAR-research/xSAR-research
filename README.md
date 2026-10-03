@@ -32,8 +32,8 @@ between sensors, embedded controllers, flight controllers and Linux systems.
 
 ### [Linux tools](Linux-tools.md)
 
-**Early development** — Linux-specific utilities and reusable frameworks for
-storage, services, inter-process communication and systems integration.
+**Early development** — Linux utilities for storage, services, inter-process
+communication, and QEMU host control over an existing QMP socket.
 
 ### [Mesh communications and arbitration](Mesh-communications-and-arbitration.md)
 
