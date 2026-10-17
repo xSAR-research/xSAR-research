@@ -44,6 +44,17 @@ Related prior work: private [solitaire-solver](https://github.com/xSAR-research/
 
 - [Open the QMP QEMU Socket repository](https://github.com/xSAR-research/qmp-qemu-socket)
 
+## QEMU Screen Grab Server
+
+**Status:** Experimental
+
+Companion to QMP QEMU Socket. A Rust TCP server that runs manually inside the
+Windows guest, captures the interactive desktop with GDI and returns fresh
+1920 × 1080 BGR8 frames on port 9999, as a faster alternative to grabbing the
+screen through QMP.
+
+- [Open the QEMU Screen Grab Server repository](https://github.com/xSAR-research/qemu-screen-grab-server)
+
 ---
 
 [← Back to the xSAR repository map](README.md)

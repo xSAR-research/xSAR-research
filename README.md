@@ -8,6 +8,11 @@ Raspberry Pi, RP2350, sensing, positioning, signal processing and communications
 The emphasis is on useful functionality, measurable behaviour and enough
 technical detail for another person to build, run, evaluate or extend the work.
 
+Core architecture lives in [xsar](https://github.com/xSAR-research/xsar)
+(autonomous drone swarm mesh architecture and telemetry orchestration).
+Articles and progress notes are published at [xsar.com.au](https://xsar.com.au)
+and on X at [@xSAR_Research](https://x.com/xSAR_Research).
+
 ## Repository map
 
 ### [Cross-platform tools](Cross-platform-tools.md)
