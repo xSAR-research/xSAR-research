@@ -21,6 +21,21 @@ processing summary.
 
 - [Open the Dedup Wordlist repository](https://github.com/xSAR-research/dedup-wordlist)
 
+## DualScope
+
+**Status:** Experimental  
+**Implementation:** Rust  
+**Platforms:** Linux, macOS and Windows
+
+Dual-channel CSV viewer in an oscilloscope style. It overlays two `time,value`
+captures on an interactive zoom-and-pan plot, with a simple moving-average
+filter, colour, line-width and grid controls, and persistent TOML settings.
+
+It is deliberately kept as a style reference: a compact, complete application
+used to capture and compare coding conventions, module layout and UI habits.
+
+- [Open the DualScope repository](https://github.com/xSAR-research/dualscope)
+
 ---
 
 [← Back to the xSAR repository map](README.md)

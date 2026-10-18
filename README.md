@@ -11,7 +11,8 @@ technical detail for another person to build, run, evaluate or extend the work.
 Core architecture lives in [xsar](https://github.com/xSAR-research/xsar)
 (autonomous drone swarm mesh architecture and telemetry orchestration).
 Articles and progress notes are published at [xsar.com.au](https://xsar.com.au)
-and on X at [@xSAR_Research](https://x.com/xSAR_Research).
+and on X at [@xSAR_Research](https://x.com/xSAR_Research); the site's source
+is in [xsar-website](https://github.com/xSAR-research/xsar-website).
 
 ## Repository map
 
@@ -37,8 +38,9 @@ between sensors, embedded controllers, flight controllers and Linux systems.
 
 ### [Linux tools](Linux-tools.md)
 
-**Early development** — Linux utilities for storage, services, inter-process
-communication, and QEMU host control over an existing QMP socket.
+**Early development** — Linux utilities for storage, file search and triage,
+services, inter-process communication, and QEMU host control over an existing
+QMP socket with guest screen capture over TCP.
 
 ### [Mesh communications and arbitration](Mesh-communications-and-arbitration.md)
 
@@ -48,7 +50,8 @@ recovery for networks of sensor and control nodes.
 ### [Positioning and navigation](Positioning-and-navigation.md)
 
 **Early development** — GNSS receiver evaluation, position and timing acquisition,
-and integration with mobile nodes and flight-control systems.
+integration with mobile nodes and flight-control systems, and route-planning
+practice for search-area coverage.
 
 ### [RF — LORAN, Wi-Fi and Bluetooth](RF.md)
 
@@ -58,7 +61,8 @@ across LORAN, Wi-Fi and Bluetooth systems.
 ### [Rust crates](Rust-crates.md)
 
 **Early development** — Reusable Rust components for Linux applications,
-embedded firmware, hardware interfaces and shared protocols.
+embedded firmware, hardware interfaces and shared protocols, including the
+xsar core crate.
 
 ### [Sensors](Sensors.md)
 
